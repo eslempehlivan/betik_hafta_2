@@ -1,0 +1,129 @@
+dizi=['gülsenem','Nasibi','eda','hüseyin']
+
+for i in range(len(dizi)):
+    print(i)
+    print(dizi[i])
+//////////////////////////////////////////////
+
+import random
+r=random.random()
+print(r)
+if r>0.5:
+    print('Tura')
+else:
+    print('Yazi')
+
+/////////////////////////////////////////////
+
+for i in range(10):
+    import random
+    r = random.random()
+    print(r)
+    if r>0.5:
+        print('Tura')
+    else:
+        print('Yazi')
+
+///////////////////////////////////
+
+import random
+    sayac_yazi = 0
+    sayac_tura= 0
+for i in range(20000):
+    r = random.random()
+    print(r)
+    if r>0.5:
+        sayac_tura+=1
+    else:
+        sayac_yazi+=1
+print('yazi sayisi:',sayac_yazi)
+print('tura yazisi:',sayac_tura)
+
+/////////////////////////////////
+
+
+dizi=['gülsenem','Nasibi','eda','hüseyin','ahmet']
+
+sayac=0
+while True:
+    print(dizi[sayac])
+    sayac+=1
+
+//////////////////////////////////
+
+dizi=['gülsenem','Nasibi','eda','hüseyin','ahmet']
+
+try:
+    sayac=0
+    while True:
+        print(dizi[sayac])
+        sayac+=1
+except:
+    print(sayac)
+
+//////////////////////////////////
+
+dizi=['gülsenem','Nasibi','eda','hüseyin','ahmet']
+
+try:
+    sayac=0
+    while True:
+        y=(dizi[sayac])
+        sayac+=1
+except:
+    print(sayac)
+
+//////////////////////////////
+
+def veli(sist):
+try:
+    sayac=0
+    while true:
+        y=(sist[sayac])
+        sayac+=1
+except:
+    print(sayac)
+veli(dizi)
+
+////////////////////////////
+
+dizi=['gülsenem','Nasibi','eda','hüseyin','ahmet']
+def veli(sist):
+try:
+    sayac=0
+    while true:
+        y=(sist[sayac])
+        sayac+=1
+except:
+    print(sayac)
+a=veli(dizi)
+print(type(a))
+
+/////////////////////////////
+
+def rsi(deger)
+    if deger<20:
+    print('alım yap')
+    elif deger>80:
+    print('lot satisi yap')
+    else:
+    print('pozisyonunu koru')
+
+import random
+from bet3 import rsi
+while True:
+    r=random.randint(1,100)
+    rsi(r)
+
+////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
